@@ -21,6 +21,7 @@ import Profile from "./components/profile/Profile";
 import PrivateRoute from "./components/common/PrivateRoute";
 import Login from "./components/auth/Login";
 import Dashboard from "./components/dashboard/Dashboard";
+import NotFound from "./components/not-found/NotFound";
 import "./App.css";
 
 if (localStorage.jwtToken) {
@@ -52,6 +53,7 @@ class App extends Component {
               <Route exact path="/login" component={Login} />
               <Route exact path="/profiles" component={Profiles} />
               <Route exact path="/profile/:handle" component={Profile} />
+              <Route exact path="/not-found" component={NotFound} />
               <Switch>
                 <PrivateRoute exact path="/dashboard" component={Dashboard} />
               </Switch>
