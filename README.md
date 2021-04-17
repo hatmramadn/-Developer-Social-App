@@ -9,5 +9,5 @@ A MERN Stack app, that connects developers with each other. you can create, read
 - CRUD operations all supported.
 - Dashboard to controll your profile
 
-# App Features
+# App Demo
 https://dev-social-web-app.herokuapp.com/
